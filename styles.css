@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #90B77F;
-    background-image: linear-gradient(to top right, #339E5E, #113820, #90B77F);
+    background-image: linear-gradient(to top right, #339E5E, #90B77F, #90B77F);
 }
 
 header {
@@ -12,9 +12,22 @@ header {
     text-align: center;
     padding: 1em 0;
     background: Linear-gradient(to right, #113820, #1F693C, #339E5E);
+    border-bottom: 2px solid Gray;
 }
 
 .profileP {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #C7E1BA;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto;
+}
+        
+.badge {
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -27,12 +40,12 @@ header {
 }
 
 a {
-  color: white;
-  width: 100%;
-  background-color: #397249;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 10px 0;
+    color: white;
+    width: 100%;
+    background-color: #397249;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
 }
 
 section {
@@ -73,7 +86,6 @@ section {
     background-color: gray;
 }
 
-
 h2 {
     border-bottom: 2px solid #C7E1BA;
 }
@@ -95,9 +107,16 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
     background-color: gray;
     text-decoration: none;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
 
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+  
