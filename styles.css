@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #90B77F;
+    background-image: linear-gradient(to top right, #339E5E, #113820, #90B77F);
+}
+
+header {
+    background-color: #397249;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    background: Linear-gradient(to right, #113820, #1F693C, #339E5E);
+}
+
+.profileP {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 5px solid #C7E1BA;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+  color: white;
+  width: 100%;
+  background-color: #397249;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #397249;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 1px;
+    margin: 2px 0;
+    background-color: #002408;
+    text-align: left;
+    line-height: 20px;
+    transition: width 0.5s;
+}
+
+.animating {
+    background-color: Gray;
+}
+
+.programming {
+    background-color: Gray;
+}
+
+.photoshop {
+    background-color: gray;
+}
+
+.digital-arts {
+    background-color: gray;
+}
+
+
+h2 {
+    border-bottom: 2px solid #C7E1BA;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: gray;
+    text-decoration: none;
+}
+
+

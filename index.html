@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <h4 class="intro">Hi, I'm Jerome, an Animator.</h4>
+        <img class="profileP" src="Jerome.jpg">
+    </header>
+
+    <section id="about">
+        <h2 id="aboutMe" >About Me</h2>
+        <p>As an animator, I love crafting expressive visuals that tell a compelling story.</p>
+        <h3>Education</h3>
+        <p>CSS at MNHS</p>
+        <h3>Career Goals</h3>
+        <p>To keep growing my skills and tell compelling stories through animation.</p>
+        <p>To create work that connects with people and brings characters to life.</p>
+        <p>To collaborate with talented teams and contribute to exciting projects.</p>
+        <p>To constantly learn new techniques and push my creative boundaries.</p>
+        <p>To make a living doing what I love – animating!</p>
+        <h3>Skills</h3>
+        <p>Animation, Video Editing, Photoshop</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title</h3>
+            <p>Description of the project.</p>
+            <p>Tools Used: HTML, CSS, JS</p>
+            <a href="live-demo-link">Live Demo</a>
+            <a href="github-link">Source Code</a>
+        </div>
+        <!-- Repeat for more projects -->
+    </section>
+
+        <div class="progress-container">
+            <div class="progress-bar animating" style="width: 75%;">Animating</div>
+            <div class="progress-bar programming" style="width: 85%;">Programming</div>
+            <div class="progress-bar photoshop" style="width: 65%;">Photoshop</div>
+            <div class="progress-bar digital-arts" style="width: 90%;">Digital Arts</div>
+        </div>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download My Resume</a>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>Course Name - Date</p>
+        <img class="badge" src="badge.jpg" alt="Certification Badge">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: jcevangelista.student@asiancollege.edu.ph</p>
+        <p>LinkedIn: <a href="linkedin-link">Your LinkedIn</a></p>
+        <p>GitHub: <a href="github-link">Your GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jerome Cadiente Evangelista. All rights reserved.</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
